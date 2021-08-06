@@ -25,9 +25,11 @@ listItems(); // run listItems function - no arguments
 
 function empty(){
   basket = [];
-  console.log('Your basket is now empty:', basket);
+  // console.log('Your basket is now empty:', basket);
+  return 'your basket is now empty:', basket;
 }
 empty();
+console.log(empty());
 
 // when prompted to test in the file, at this point
 // in the ReadMe, I ran a bunch of tests here AND ran
@@ -35,8 +37,9 @@ empty();
 
 // tests as suggested from ReadMe:
 
-console.log(`Basket is ${basket}`);
+// console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
+console.log('Adding juice (expect true)', addItem('juice'));
 console.log(`Basket is now ${basket}`);
 
 // extra tests, commented out.Very interested in chasing how 3 could be done right...
@@ -71,8 +74,8 @@ addItem('beets'); //adding beets
 addItem('cucumber'); //adding cucumber
 // addItem('OJ'); //adding OJ
 // addItem('milk'); //adding milk
-addItem('tomato'); //adding tomato
-console.log(addItem('batteries')); //adding batteries
+// addItem('tomato'); //adding tomato
+// console.log(addItem('batteries')); //adding batteries
 
 console.log(basket); // testing - show me the array
 
