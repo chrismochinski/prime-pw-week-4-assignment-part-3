@@ -10,9 +10,9 @@ function addItem( item ) { //function called addItems with one parameter called 
       return true; //thumbs up - it's in there
 } //end addItems function
 
-// console.log('Added bread to the cart:', addItems( 'bread' )); // add bread
-// console.log('Added potatoes to the cart:', addItems( 'potatoes' )); // add potatoes
-// console.log('Added bananas to the cart:', addItems( 'bananas' )); // add bananas
+// console.log('Added bread to the cart:', addItem( 'bread' )); // add bread
+// console.log('Added potatoes to the cart:', addItem( 'potatoes' )); // add potatoes
+// console.log('Added bananas to the cart:', addItem( 'bananas' )); // add bananas
 
 function listItems(){ //created function called listItems, no parameters
   console.log('in listItems array'); //shows we are in listItems function
