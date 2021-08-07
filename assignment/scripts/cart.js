@@ -5,7 +5,7 @@ console.log('***** Cart Functions *****');
 let basket = []; //array variable, global
 
 function addItem( item ) { //function called addItems with one parameter called items
-  console.log('in addItem array') //shows we are in the addItems function
+  console.log('in addItem function') //shows we are in the addItems function
   basket.push(item); //push argument from later into end of the basket array
       return true; //thumbs up - it's in there
 } //end addItems function
