@@ -63,10 +63,10 @@ function isFull(){
   } //end if not full
   else if(basket.length > maxItems){
     return ('Uh oh - your basket is overflowing!');
-  } //end if exactly full
+  } //if overflowing
   else{
     return true;
-  }
+  } // if exactly full
 } //end isFull functions
 
 addItem('pears'); //adding pears
